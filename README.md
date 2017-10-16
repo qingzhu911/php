@@ -1,4 +1,9 @@
- # php课程代码
+ # php中的session
 
-### 在master主线中,不会有任何的内容
-### 每个知识点会以分支的形式进行上传
+### 先调用session_start()方法
+### 例:header("location:page2.php")跳转
+### 三目运算符获取服务器中的session值
+### 例:$_SESSION['name'] = "Alice";改变服务器中的值
+### 例:unset($_SESSION['name']);取消干掉session中的name
+### 例:unset($_SESSION['name']);取消干掉session中的name
+### 例:session_destroy();干掉所有的session
